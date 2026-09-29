@@ -60,9 +60,4 @@ public class WordFrequencyCounter {
 
     }
 
-public static void main(String[] args) {
-    WordFrequencyCounter counter = new WordFrequencyCounter();
-
-    System.out.println(counter.countWords("Java java, AWS!"));
-}
 }
