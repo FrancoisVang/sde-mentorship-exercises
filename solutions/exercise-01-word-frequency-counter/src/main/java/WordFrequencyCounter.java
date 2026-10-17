@@ -32,7 +32,7 @@ public class WordFrequencyCounter {
         //Using String[] to support the String split
         //trim(): used for removing spaces from the beginning and end
         //split("\\s+"): used when there is more than one space
-        //source: https://codegym.cc/groups/posts/stringsplit-method-in-java
+        //source: https://codegym.cc/groups/posts/stringsplit-method-in-java | https://codegym.cc/groups/posts/java-string-trim-method
         String[] cleanWords = ignorePunct.trim().split("\\s+");
 
         //for loop to count the words: https://www.w3schools.com/java/java_for_loop.asp
