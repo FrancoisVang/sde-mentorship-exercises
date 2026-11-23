@@ -47,10 +47,6 @@ Null | Empty Handle: the if statement checks for null or isblank inputs and the 
 
 ## Unit Testing
 
-Describe at least three JUnit tests.
-
-For each test, explain:
-
 For test 1, I tested if the words get counted
 In test 2, I gave the input of "Hello HELLO hello" expecting it to show up 3 times and output "hello". The purpose was to test if the words contained the same capitalizations as a result the test passed.
 
